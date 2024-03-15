@@ -18,12 +18,12 @@ const createWindow = () => {
             preload: path.join(__dirname, '../src/utils/preload.js')
         }
     });
-    // window.loadURL('http://localhost:3000'); // to run the react app in dev mode
-    window.loadURL(url.format({
-        pathname: path.join(__dirname, 'build', 'index.html'),
-        protocol: 'file:',
-        slashes: true
-    }));  // this is to run the static react app 
+    window.loadURL('http://localhost:3000'); // to run the react app in dev mode
+    // window.loadURL(url.format({
+    //     pathname: path.join(__dirname, 'build', 'index.html'),
+    //     protocol: 'file:',
+    //     slashes: true
+    // }));  // this is to run the static react app 
     // window.webContents.openDevTools();  // enable if you want to open the devtools in electron app
     window.on('close', () => { console.log("App closed") });
 };
