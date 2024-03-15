@@ -1,7 +1,7 @@
 
 # System Library
 
-This project is a clone copy of the WinEx. Build using Javascript, it uses frameworks like React to create a user friendly UI/UX along with Electron to running native code such as featching files, managing path history and all.
+This project is a clone copy of the WinEx. Build using Javascript, it uses frameworks like React to create a user friendly UI/UX along with Electron to running native code such as fetching files, managing path history and all.
 
 
 ## Features
