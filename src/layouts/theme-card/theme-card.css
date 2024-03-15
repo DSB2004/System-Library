@@ -1,0 +1,18 @@
+.theme-card {
+    width: 180px;
+    margin: 10px auto;
+    list-style: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    background-color: rgba(50, 50, 50, 1);
+    color: white;
+    height: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.color-card {
+    width: 40px;
+    height: 100%;
+    margin-right: 20px;
+}

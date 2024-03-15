@@ -1,0 +1,33 @@
+.common-card {
+    background-color: var(--base-2);
+    width: 250px;
+    margin: 5px auto;
+    overflow: hidden;
+    position: relative;
+    height: 40px;
+    cursor: pointer;
+}
+
+.common-card-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.common-card-icon-render {
+    width: 25px;
+    height: 25px;
+}
+
+.common-card-content-div {
+    width: 180px;
+}
+
+.common-card-content {
+    height: 5px;
+    margin: 5px;
+}
+
+.common-card-h4 {
+    color: var(--text);
+    font-size: 13px;
+}

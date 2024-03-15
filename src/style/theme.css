@@ -1,0 +1,10 @@
+:root {
+    --base-r: 0;
+    --base-g: 0;
+    --base-b: 0;
+    --load: rgb(92, 92, 92);
+    --text: white;
+    --base: rgb(var(--base-r), var(--base-g), var(--base-b));
+    --base-2: rgb(23, 23, 23);
+    --base-transparent: rgba(var(--base-r), var(--base-g), var(--base-b), 0.7);
+}

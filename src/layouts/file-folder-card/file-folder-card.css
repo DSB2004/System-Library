@@ -1,0 +1,49 @@
+.file-folder-card {
+    width: 195px;
+    flex-shrink: 0;
+    height: 50px;
+    background-color: var(--base);
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.file-folder-card-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.file-folder-card-content-div {
+    color: var(--text);
+    width: 120px;
+}
+
+.file-folder-card-content-tag {
+    height: 8px;
+    margin: 2px;
+}
+
+.file-folder-card-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100px;
+    color: var(--text);
+    font-size: 12px;
+    margin: 1px 0px;
+}
+
+.file-folder-card-path {
+    color: var(--text);
+    opacity: 0.3;
+    margin: 0px;
+    font-size: 10px;
+    max-width: 120px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.loading {
+    background-color: var(--load);
+}

@@ -1,0 +1,76 @@
+.drive-card {
+    background-color: var(--base-2);
+    width: 250px;
+    height: 50px;
+    margin: 20px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+@keyframes gradient-animation_2 {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.drive-icon-load {
+    width: 35px;
+    background-color: var(--load);
+    height: 35px;
+}
+
+.drive-content-load,
+.drive-content {
+    width: 180px;
+    height: 60%;
+}
+
+.drive-content-load-div-1 {
+    width: 90%;
+    margin: 2px 0px;
+    height: 6px;
+    background-color: var(--load);
+}
+
+.drive-content-load-div-2 {
+    width: 50%;
+    margin: 0px;
+    height: 6px;
+    background-color: var(--load);
+}
+
+
+.drive-icon {
+    width: 35px;
+    height: 35px;
+}
+
+
+.drive-content-div-1 {
+    width: 90%;
+    margin: 4px 0px 2px 0px;
+    font-size: 12px;
+    color: var(--text);
+}
+
+.drive-content-storage-div h6 {
+    color: white;
+    margin: 0px 10px;
+}
+
+.drive-content-storage-indicator {
+    width: 70%;
+    margin: 0px;
+    height: 5px;
+    background-color: var(--load);
+}
+
+.filled {
+    height: 100%;
+    width: 0%;
+    background-color: rgb(0, 115, 255);
+}
